@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Perfil</title>
+    <style>
+        main {
+            flex-direction: column;
+        }
+        .bloco {
+            margin-top: 20px;
+            flex-direction: column;
+        }
+        ul {
+            margin: 0;
+        }
+        
+    </style>
 </head>
 <body>
     <header>
@@ -22,11 +35,30 @@
             <article>
                 <h2>Informações do Usuário</h2>
                 <div class="bloco">
-                    <p style="font-weight: bold;">Nome de Usuário: </p> <p> user123</p>
+                    <p><b>Nome de Usuário:</b> user123</p>
+                    <p style="font-weight: bold;">Foto de Perfil: </p>
                     <figure><img src="https://picsum.photos/200/200?random=1" alt=""></figure>
+                </div>
+            </article>
+            <article>
+                <h2>Preferências de Notícias</h2>
+                <div class="bloco">
+                    <ul>
+                        <li><p>Categorias preferidas: Tecnologia, Esportes</p></li>
+                        <li><p>Fontes Favoritas: BBC, TechCrunch</p></li>
+                    </ul>
+                </div>
+            </article>
+            <article>
+                <h2>Atividades Recentes</h2>
+                <div class="bloco">
+                    <p>Visualizou a notícia "Novidades na Tecnologia" - 10/04/2045</p>
                 </div>
             </article>
         </main>
     </div>
+    <footer>
+        <p>&copy; 2045 Xablau. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
